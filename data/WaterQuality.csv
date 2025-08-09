@@ -10,7 +10,7 @@ SiteID,ObservationDate,pH,ContaminantPPB,SourceFile
 101,2025-08-05,7.33,13.7,WaterQuality_Aug2025.csv
 201,2025-08-05,7.39,12.0,WaterQuality_Aug2025.csv
 101,2025-08-06,7.35,14.0,WaterQuality_Aug2025.csv
-201,2025-08-06,7.3999999999999995,12.25,WaterQuality_Aug2025.csv
+201,2025-08-06,7.399999999999999,12.25,WaterQuality_Aug2025.csv
 101,2025-08-07,7.37,14.3,WaterQuality_Aug2025.csv
 201,2025-08-07,7.409999999999999,12.5,WaterQuality_Aug2025.csv
 101,2025-08-08,7.39,14.6,WaterQuality_Aug2025.csv
@@ -18,4 +18,4 @@ SiteID,ObservationDate,pH,ContaminantPPB,SourceFile
 101,2025-08-09,7.41,14.9,WaterQuality_Aug2025.csv
 201,2025-08-09,7.43,13.0,WaterQuality_Aug2025.csv
 101,2025-08-10,7.43,15.2,WaterQuality_Aug2025.csv
-201,2025-08-10,7.4399999999999995,13.25,WaterQuality_Aug2025.csv
+201,2025-08-10,7.439999999999999,13.25,WaterQuality_Aug2025.csv

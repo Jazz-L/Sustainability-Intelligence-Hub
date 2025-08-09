@@ -1,25 +1,501 @@
-SiteID,Species,ObservationDate,Count,SourceFile
-201,Red Fox,2025-08-01,1,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-01,1,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-01,1,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-04,2,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-04,2,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-04,2,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-07,3,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-07,3,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-07,3,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-10,4,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-10,4,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-10,4,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-13,5,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-13,5,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-13,5,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-16,1,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-16,1,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-16,1,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-19,2,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-19,2,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-19,2,Wildlife_Aug2025.csv
-201,Red Fox,2025-08-22,3,Wildlife_Aug2025.csv
-201,Bald Eagle,2025-08-22,3,Wildlife_Aug2025.csv
-201,Raccoon,2025-08-22,3,Wildlife_Aug2025.csv
+SiteID,ObservationDate,Species,Count,Observer,Status,Region,ObservationMonthYYYYMM
+103,2025-06-30,Hawk,4,Ranger A,Low,East,2025-06
+104,2025-07-18,Deer,2,Field Tech 1,Low,West,2025-07
+101,2025-06-30,Fox,6,Ranger B,Low,North,2025-06
+103,2025-06-30,Fox,1,Field Tech 1,Low,East,2025-06
+103,2025-07-29,Owl,3,Ranger A,Low,East,2025-07
+103,2025-07-09,Eagle,2,Field Tech 2,Low,East,2025-07
+103,2025-06-26,Bear,6,Field Tech 1,Moderate,East,2025-06
+102,2025-05-30,Raccoon,4,Field Tech 2,Low,South,2025-05
+102,2025-07-23,Hawk,6,Field Tech 1,Moderate,South,2025-07
+104,2025-07-15,Owl,4,Ranger A,Moderate,West,2025-07
+103,2025-06-11,Deer,2,Field Tech 2,Low,East,2025-06
+103,2025-07-04,Raccoon,4,Field Tech 2,Moderate,East,2025-07
+102,2025-07-10,Raccoon,5,Ranger B,Moderate,South,2025-07
+101,2025-06-11,Hawk,5,Field Tech 1,Low,North,2025-06
+101,2025-06-05,Bear,5,Field Tech 1,Low,North,2025-06
+102,2025-05-31,Deer,1,Ranger A,Low,South,2025-05
+101,2025-06-06,Raccoon,2,Ranger A,Low,North,2025-06
+104,2025-06-28,Bear,6,Ranger B,Moderate,West,2025-06
+104,2025-07-08,Raccoon,6,Ranger B,Low,West,2025-07
+102,2025-07-28,Bear,1,Ranger A,Low,South,2025-07
+101,2025-06-29,Deer,4,Ranger B,Low,North,2025-06
+104,2025-05-12,Hawk,1,Ranger B,Low,West,2025-05
+101,2025-07-03,Deer,4,Field Tech 2,Low,North,2025-07
+103,2025-07-01,Hawk,4,Field Tech 2,Low,East,2025-07
+104,2025-05-26,Bear,3,Field Tech 2,Low,West,2025-05
+104,2025-06-08,Owl,6,Ranger B,Moderate,West,2025-06
+103,2025-07-11,Raccoon,5,Ranger B,Low,East,2025-07
+103,2025-07-01,Fox,4,Field Tech 1,Low,East,2025-07
+102,2025-06-09,Eagle,3,Field Tech 1,Low,South,2025-06
+101,2025-05-23,Deer,6,Ranger B,Moderate,North,2025-05
+104,2025-08-02,Deer,5,Ranger B,Moderate,West,2025-08
+101,2025-06-28,Raccoon,4,Field Tech 1,Moderate,North,2025-06
+104,2025-06-28,Fox,4,Ranger B,Moderate,West,2025-06
+104,2025-06-24,Owl,1,Ranger A,Moderate,West,2025-06
+104,2025-07-06,Fox,1,Field Tech 1,Moderate,West,2025-07
+103,2025-06-24,Owl,6,Field Tech 2,Low,East,2025-06
+102,2025-07-07,Deer,5,Field Tech 1,Low,South,2025-07
+104,2025-07-07,Fox,4,Field Tech 2,Moderate,West,2025-07
+103,2025-07-30,Bear,6,Field Tech 2,Low,East,2025-07
+102,2025-07-04,Deer,6,Ranger A,Low,South,2025-07
+104,2025-07-20,Hawk,2,Ranger A,Low,West,2025-07
+101,2025-07-27,Raccoon,1,Ranger B,Low,North,2025-07
+104,2025-05-29,Fox,5,Field Tech 1,Low,West,2025-05
+104,2025-06-16,Deer,4,Field Tech 2,Low,West,2025-06
+103,2025-06-18,Owl,6,Field Tech 2,Low,East,2025-06
+103,2025-06-28,Eagle,4,Ranger A,Low,East,2025-06
+104,2025-05-08,Bear,2,Ranger A,Low,West,2025-05
+103,2025-06-03,Bear,5,Ranger A,Low,East,2025-06
+101,2025-05-09,Deer,6,Ranger B,Low,North,2025-05
+101,2025-07-24,Deer,4,Ranger B,Low,North,2025-07
+102,2025-07-05,Bear,1,Ranger A,Moderate,South,2025-07
+102,2025-07-04,Bear,2,Field Tech 1,Low,South,2025-07
+103,2025-05-27,Hawk,5,Ranger A,Low,East,2025-05
+102,2025-06-14,Fox,2,Ranger A,Moderate,South,2025-06
+103,2025-07-18,Bear,1,Field Tech 2,Low,East,2025-07
+104,2025-05-31,Fox,5,Ranger B,Low,West,2025-05
+101,2025-08-03,Owl,2,Field Tech 1,Moderate,North,2025-08
+101,2025-07-17,Owl,3,Ranger A,Low,North,2025-07
+103,2025-07-13,Raccoon,1,Field Tech 1,Low,East,2025-07
+101,2025-07-09,Bear,1,Field Tech 1,Low,North,2025-07
+101,2025-06-28,Owl,1,Field Tech 2,Low,North,2025-06
+101,2025-06-30,Eagle,3,Field Tech 2,Low,North,2025-06
+102,2025-06-30,Deer,3,Field Tech 1,Low,South,2025-06
+104,2025-07-04,Raccoon,4,Field Tech 1,Low,West,2025-07
+103,2025-06-06,Owl,6,Ranger A,Moderate,East,2025-06
+103,2025-07-02,Deer,2,Field Tech 2,Low,East,2025-07
+104,2025-06-18,Fox,4,Field Tech 2,Low,West,2025-06
+103,2025-05-29,Raccoon,2,Ranger B,Low,East,2025-05
+103,2025-06-08,Eagle,6,Field Tech 1,Low,East,2025-06
+103,2025-07-16,Fox,3,Ranger B,Low,East,2025-07
+101,2025-06-05,Bear,6,Field Tech 2,Low,North,2025-06
+104,2025-07-16,Owl,3,Ranger B,Moderate,West,2025-07
+104,2025-07-27,Bear,6,Field Tech 2,Low,West,2025-07
+104,2025-05-08,Fox,4,Field Tech 1,Low,West,2025-05
+102,2025-06-26,Bear,5,Ranger B,Low,South,2025-06
+103,2025-07-29,Hawk,4,Field Tech 1,Low,East,2025-07
+104,2025-07-15,Hawk,2,Field Tech 1,Low,West,2025-07
+104,2025-07-15,Eagle,4,Field Tech 1,Low,West,2025-07
+104,2025-06-09,Eagle,1,Field Tech 1,Low,West,2025-06
+102,2025-05-21,Bear,2,Ranger B,Low,South,2025-05
+103,2025-05-21,Bear,6,Ranger B,Low,East,2025-05
+102,2025-06-02,Bear,2,Field Tech 2,Low,South,2025-06
+103,2025-07-20,Owl,5,Field Tech 1,Moderate,East,2025-07
+101,2025-05-30,Eagle,3,Ranger B,Low,North,2025-05
+103,2025-05-28,Eagle,6,Ranger A,Low,East,2025-05
+102,2025-06-10,Fox,2,Ranger A,Low,South,2025-06
+103,2025-08-03,Deer,6,Field Tech 2,Low,East,2025-08
+101,2025-05-07,Hawk,6,Field Tech 1,Low,North,2025-05
+104,2025-07-06,Raccoon,6,Field Tech 1,Low,West,2025-07
+102,2025-05-12,Eagle,3,Field Tech 2,Low,South,2025-05
+101,2025-05-14,Raccoon,4,Field Tech 2,Moderate,North,2025-05
+101,2025-07-18,Bear,6,Ranger A,Low,North,2025-07
+102,2025-05-25,Owl,1,Field Tech 1,Low,South,2025-05
+101,2025-06-06,Fox,5,Field Tech 2,Low,North,2025-06
+102,2025-07-11,Raccoon,3,Field Tech 2,Low,South,2025-07
+104,2025-06-13,Owl,2,Field Tech 2,Low,West,2025-06
+103,2025-07-17,Hawk,3,Ranger A,Low,East,2025-07
+101,2025-06-01,Bear,2,Ranger B,Moderate,North,2025-06
+103,2025-07-29,Fox,3,Ranger B,Low,East,2025-07
+102,2025-05-28,Hawk,2,Ranger A,Low,South,2025-05
+102,2025-05-06,Raccoon,6,Field Tech 2,Low,South,2025-05
+104,2025-06-12,Fox,4,Ranger B,Low,West,2025-06
+103,2025-06-11,Bear,2,Field Tech 2,Low,East,2025-06
+101,2025-08-01,Deer,2,Field Tech 1,Moderate,North,2025-08
+102,2025-06-29,Fox,1,Ranger B,Low,South,2025-06
+102,2025-06-09,Owl,2,Ranger B,Low,South,2025-06
+101,2025-05-13,Deer,1,Field Tech 1,Low,North,2025-05
+103,2025-07-01,Fox,5,Field Tech 2,Low,East,2025-07
+103,2025-08-03,Raccoon,6,Field Tech 1,Low,East,2025-08
+104,2025-07-01,Fox,1,Ranger A,Moderate,West,2025-07
+104,2025-06-16,Hawk,4,Field Tech 1,Low,West,2025-06
+101,2025-05-17,Deer,6,Ranger A,Low,North,2025-05
+103,2025-07-18,Fox,1,Ranger B,Low,East,2025-07
+104,2025-07-11,Bear,6,Field Tech 2,Low,West,2025-07
+103,2025-05-29,Hawk,6,Field Tech 2,Moderate,East,2025-05
+104,2025-05-17,Raccoon,6,Field Tech 1,Low,West,2025-05
+104,2025-06-17,Eagle,5,Ranger A,Low,West,2025-06
+102,2025-06-17,Raccoon,4,Field Tech 2,Low,South,2025-06
+103,2025-07-29,Raccoon,3,Ranger A,Moderate,East,2025-07
+104,2025-05-17,Eagle,3,Field Tech 1,Low,West,2025-05
+103,2025-05-20,Owl,1,Field Tech 2,Moderate,East,2025-05
+101,2025-07-29,Owl,6,Field Tech 2,Low,North,2025-07
+104,2025-05-12,Deer,1,Field Tech 1,Low,West,2025-05
+104,2025-07-25,Raccoon,5,Ranger A,Low,West,2025-07
+102,2025-06-09,Hawk,5,Ranger B,Low,South,2025-06
+103,2025-07-01,Bear,2,Field Tech 2,Low,East,2025-07
+101,2025-05-09,Bear,5,Ranger B,Moderate,North,2025-05
+102,2025-06-14,Hawk,2,Ranger A,Low,South,2025-06
+104,2025-05-17,Deer,4,Ranger A,Low,West,2025-05
+104,2025-05-21,Bear,1,Ranger B,Low,West,2025-05
+104,2025-06-12,Hawk,4,Field Tech 1,Low,West,2025-06
+104,2025-07-06,Raccoon,5,Ranger B,Low,West,2025-07
+104,2025-07-15,Deer,4,Field Tech 2,Low,West,2025-07
+102,2025-07-21,Hawk,4,Ranger B,Low,South,2025-07
+101,2025-06-10,Owl,4,Field Tech 2,Low,North,2025-06
+103,2025-07-09,Eagle,5,Ranger A,Low,East,2025-07
+103,2025-06-13,Owl,6,Field Tech 2,Moderate,East,2025-06
+102,2025-07-02,Hawk,4,Field Tech 2,Low,South,2025-07
+103,2025-06-17,Hawk,2,Field Tech 2,Low,East,2025-06
+104,2025-06-16,Owl,5,Ranger B,Low,West,2025-06
+102,2025-07-18,Raccoon,4,Ranger B,Low,South,2025-07
+104,2025-05-11,Eagle,6,Field Tech 2,Low,West,2025-05
+104,2025-06-24,Bear,5,Ranger B,Low,West,2025-06
+104,2025-05-10,Deer,3,Field Tech 1,Low,West,2025-05
+101,2025-07-01,Fox,6,Field Tech 2,Low,North,2025-07
+101,2025-05-24,Raccoon,2,Ranger B,Low,North,2025-05
+101,2025-07-05,Owl,4,Field Tech 1,Moderate,North,2025-07
+103,2025-07-24,Bear,3,Field Tech 2,Low,East,2025-07
+101,2025-06-17,Owl,3,Field Tech 2,Low,North,2025-06
+103,2025-07-25,Bear,5,Field Tech 2,Low,East,2025-07
+101,2025-07-24,Fox,3,Ranger B,Low,North,2025-07
+103,2025-06-04,Bear,2,Ranger A,Low,East,2025-06
+104,2025-05-18,Owl,2,Ranger A,Low,West,2025-05
+104,2025-05-27,Bear,1,Field Tech 1,Moderate,West,2025-05
+101,2025-05-11,Eagle,2,Ranger A,Low,North,2025-05
+103,2025-06-20,Eagle,6,Field Tech 2,Low,East,2025-06
+102,2025-06-06,Hawk,3,Field Tech 2,Low,South,2025-06
+102,2025-05-27,Deer,2,Ranger A,Low,South,2025-05
+104,2025-07-24,Bear,5,Ranger B,Low,West,2025-07
+104,2025-07-19,Deer,1,Ranger B,Low,West,2025-07
+104,2025-07-26,Eagle,3,Field Tech 2,Moderate,West,2025-07
+103,2025-07-30,Fox,1,Field Tech 2,Low,East,2025-07
+103,2025-07-31,Hawk,3,Ranger B,Low,East,2025-07
+101,2025-07-01,Eagle,5,Field Tech 1,Low,North,2025-07
+104,2025-08-02,Eagle,1,Field Tech 2,Low,West,2025-08
+103,2025-05-31,Raccoon,4,Field Tech 2,Low,East,2025-05
+101,2025-06-05,Raccoon,6,Field Tech 1,Low,North,2025-06
+103,2025-08-03,Eagle,6,Ranger A,Low,East,2025-08
+104,2025-06-10,Fox,3,Ranger A,Low,West,2025-06
+104,2025-06-11,Owl,4,Ranger B,Low,West,2025-06
+103,2025-06-03,Bear,1,Ranger B,Low,East,2025-06
+103,2025-07-31,Owl,4,Ranger B,Moderate,East,2025-07
+101,2025-07-25,Bear,4,Ranger A,Low,North,2025-07
+103,2025-07-01,Fox,1,Field Tech 1,Low,East,2025-07
+102,2025-05-17,Eagle,5,Field Tech 1,Low,South,2025-05
+104,2025-05-28,Deer,4,Ranger B,Low,West,2025-05
+103,2025-07-12,Hawk,4,Field Tech 1,Low,East,2025-07
+102,2025-06-07,Owl,5,Field Tech 2,Low,South,2025-06
+103,2025-06-18,Owl,4,Ranger A,Low,East,2025-06
+104,2025-05-15,Deer,4,Ranger B,Low,West,2025-05
+104,2025-07-16,Eagle,4,Ranger A,Moderate,West,2025-07
+104,2025-05-07,Eagle,6,Ranger A,Moderate,West,2025-05
+104,2025-06-22,Bear,2,Field Tech 1,Low,West,2025-06
+104,2025-07-26,Eagle,5,Ranger A,Moderate,West,2025-07
+102,2025-07-05,Fox,4,Field Tech 1,Low,South,2025-07
+102,2025-07-27,Fox,6,Field Tech 2,Moderate,South,2025-07
+103,2025-07-28,Raccoon,5,Ranger A,Low,East,2025-07
+102,2025-05-11,Fox,3,Field Tech 1,Moderate,South,2025-05
+104,2025-05-20,Fox,3,Ranger B,Low,West,2025-05
+102,2025-06-24,Raccoon,4,Field Tech 1,Low,South,2025-06
+104,2025-07-20,Bear,6,Ranger B,Low,West,2025-07
+104,2025-07-28,Fox,6,Field Tech 2,Low,West,2025-07
+104,2025-06-10,Fox,5,Field Tech 1,Low,West,2025-06
+102,2025-07-01,Raccoon,5,Ranger B,Low,South,2025-07
+103,2025-05-18,Bear,6,Field Tech 1,Moderate,East,2025-05
+103,2025-05-13,Raccoon,5,Field Tech 1,Moderate,East,2025-05
+102,2025-05-21,Owl,6,Field Tech 2,Low,South,2025-05
+101,2025-07-29,Deer,2,Ranger A,Low,North,2025-07
+101,2025-06-17,Deer,6,Ranger B,Low,North,2025-06
+102,2025-05-14,Owl,3,Ranger B,Low,South,2025-05
+102,2025-06-04,Eagle,5,Ranger B,Low,South,2025-06
+101,2025-06-10,Owl,6,Ranger B,Low,North,2025-06
+102,2025-07-14,Eagle,6,Ranger B,Low,South,2025-07
+101,2025-07-29,Owl,5,Ranger A,Low,North,2025-07
+102,2025-05-07,Eagle,2,Ranger B,Low,South,2025-05
+103,2025-05-08,Deer,2,Field Tech 1,Low,East,2025-05
+101,2025-05-22,Bear,5,Field Tech 2,Low,North,2025-05
+101,2025-05-14,Raccoon,1,Field Tech 2,Low,North,2025-05
+103,2025-07-10,Hawk,5,Ranger A,Low,East,2025-07
+104,2025-07-09,Deer,5,Ranger A,Low,West,2025-07
+103,2025-07-03,Bear,2,Ranger A,Moderate,East,2025-07
+101,2025-07-06,Owl,2,Field Tech 2,Low,North,2025-07
+104,2025-08-01,Fox,5,Field Tech 2,Low,West,2025-08
+104,2025-05-15,Fox,5,Field Tech 1,Low,West,2025-05
+102,2025-05-14,Deer,5,Field Tech 1,Low,South,2025-05
+103,2025-06-23,Hawk,2,Field Tech 1,Low,East,2025-06
+104,2025-07-09,Hawk,5,Field Tech 2,Low,West,2025-07
+101,2025-08-03,Fox,5,Ranger B,Low,North,2025-08
+104,2025-07-02,Deer,4,Field Tech 2,Low,West,2025-07
+103,2025-07-03,Raccoon,1,Field Tech 2,Low,East,2025-07
+101,2025-06-15,Raccoon,3,Field Tech 1,Low,North,2025-06
+103,2025-06-22,Deer,1,Field Tech 2,Moderate,East,2025-06
+101,2025-05-17,Owl,4,Ranger A,Low,North,2025-05
+101,2025-06-30,Fox,3,Field Tech 1,Low,North,2025-06
+102,2025-07-16,Fox,5,Field Tech 1,Low,South,2025-07
+101,2025-06-27,Eagle,4,Field Tech 2,Low,North,2025-06
+101,2025-06-11,Hawk,5,Field Tech 1,Low,North,2025-06
+103,2025-05-19,Hawk,2,Ranger B,Low,East,2025-05
+102,2025-07-29,Raccoon,6,Ranger B,Low,South,2025-07
+101,2025-06-19,Owl,4,Field Tech 1,Moderate,North,2025-06
+101,2025-06-10,Hawk,2,Ranger B,Low,North,2025-06
+104,2025-07-16,Owl,4,Ranger A,Low,West,2025-07
+103,2025-05-09,Deer,4,Field Tech 1,Moderate,East,2025-05
+103,2025-06-18,Eagle,2,Ranger A,Low,East,2025-06
+102,2025-05-24,Hawk,3,Field Tech 2,Low,South,2025-05
+101,2025-05-24,Bear,1,Ranger A,Moderate,North,2025-05
+101,2025-07-12,Deer,5,Field Tech 2,Low,North,2025-07
+104,2025-07-03,Eagle,4,Ranger B,Moderate,West,2025-07
+103,2025-06-14,Bear,5,Field Tech 1,Low,East,2025-06
+101,2025-05-12,Deer,6,Ranger B,Low,North,2025-05
+101,2025-07-31,Fox,2,Field Tech 1,Low,North,2025-07
+104,2025-07-29,Raccoon,5,Field Tech 2,Low,West,2025-07
+104,2025-06-28,Eagle,2,Ranger B,Low,West,2025-06
+101,2025-06-19,Raccoon,5,Ranger A,Low,North,2025-06
+103,2025-07-31,Bear,1,Field Tech 2,Low,East,2025-07
+103,2025-05-11,Deer,1,Field Tech 2,Low,East,2025-05
+101,2025-05-06,Deer,1,Field Tech 1,Low,North,2025-05
+102,2025-05-23,Owl,1,Field Tech 1,Low,South,2025-05
+103,2025-06-16,Fox,1,Ranger A,Moderate,East,2025-06
+104,2025-06-30,Deer,1,Ranger B,Moderate,West,2025-06
+104,2025-07-13,Bear,2,Ranger B,Low,West,2025-07
+103,2025-05-15,Raccoon,4,Ranger A,Low,East,2025-05
+104,2025-05-08,Raccoon,5,Ranger A,Low,West,2025-05
+103,2025-07-18,Raccoon,1,Field Tech 2,Low,East,2025-07
+104,2025-06-12,Fox,2,Field Tech 2,Low,West,2025-06
+101,2025-06-16,Deer,2,Field Tech 2,Low,North,2025-06
+103,2025-05-17,Raccoon,2,Ranger A,Low,East,2025-05
+102,2025-06-30,Hawk,4,Field Tech 2,Low,South,2025-06
+101,2025-06-25,Owl,5,Field Tech 1,Low,North,2025-06
+103,2025-06-03,Eagle,4,Ranger B,Low,East,2025-06
+101,2025-07-10,Bear,3,Ranger A,Low,North,2025-07
+102,2025-06-19,Eagle,2,Ranger B,Moderate,South,2025-06
+102,2025-05-19,Deer,3,Field Tech 1,Low,South,2025-05
+102,2025-05-28,Hawk,6,Ranger B,Low,South,2025-05
+101,2025-05-28,Owl,1,Field Tech 2,Low,North,2025-05
+104,2025-07-17,Owl,1,Field Tech 2,Low,West,2025-07
+103,2025-07-25,Eagle,4,Ranger B,Moderate,East,2025-07
+104,2025-05-14,Raccoon,5,Field Tech 2,Low,West,2025-05
+103,2025-06-10,Hawk,3,Ranger A,Low,East,2025-06
+103,2025-07-09,Fox,5,Field Tech 1,Low,East,2025-07
+104,2025-07-02,Fox,4,Ranger A,Low,West,2025-07
+103,2025-06-11,Fox,1,Ranger A,Low,East,2025-06
+104,2025-07-04,Hawk,5,Ranger A,Low,West,2025-07
+104,2025-07-18,Bear,5,Ranger B,Low,West,2025-07
+103,2025-07-22,Raccoon,1,Ranger B,Low,East,2025-07
+101,2025-07-02,Fox,3,Field Tech 1,Low,North,2025-07
+101,2025-07-09,Bear,1,Ranger B,Moderate,North,2025-07
+101,2025-06-06,Bear,5,Field Tech 2,Low,North,2025-06
+104,2025-07-12,Hawk,3,Ranger B,Low,West,2025-07
+103,2025-06-22,Eagle,3,Field Tech 2,Low,East,2025-06
+104,2025-06-18,Bear,1,Ranger A,Low,West,2025-06
+103,2025-05-14,Eagle,5,Ranger A,Moderate,East,2025-05
+104,2025-06-11,Eagle,4,Ranger B,Low,West,2025-06
+103,2025-05-16,Hawk,5,Ranger B,Low,East,2025-05
+103,2025-06-14,Bear,2,Field Tech 2,Low,East,2025-06
+102,2025-07-21,Bear,6,Ranger A,Low,South,2025-07
+103,2025-07-16,Raccoon,4,Field Tech 1,Moderate,East,2025-07
+102,2025-07-30,Bear,3,Ranger A,Moderate,South,2025-07
+104,2025-07-10,Eagle,4,Ranger A,Low,West,2025-07
+103,2025-06-14,Deer,3,Ranger B,Moderate,East,2025-06
+103,2025-07-07,Deer,3,Ranger B,Low,East,2025-07
+102,2025-05-25,Fox,4,Field Tech 1,Low,South,2025-05
+101,2025-07-09,Owl,3,Ranger A,Low,North,2025-07
+103,2025-07-24,Deer,3,Field Tech 2,Low,East,2025-07
+102,2025-05-26,Deer,2,Ranger B,Moderate,South,2025-05
+104,2025-05-11,Raccoon,5,Field Tech 1,Low,West,2025-05
+102,2025-07-01,Hawk,5,Field Tech 1,Low,South,2025-07
+104,2025-06-04,Hawk,6,Ranger B,Moderate,West,2025-06
+103,2025-07-05,Owl,6,Ranger B,Low,East,2025-07
+103,2025-07-31,Hawk,2,Field Tech 2,Low,East,2025-07
+104,2025-06-11,Owl,6,Field Tech 2,Low,West,2025-06
+104,2025-05-26,Owl,4,Ranger B,Low,West,2025-05
+102,2025-06-07,Fox,1,Field Tech 2,Low,South,2025-06
+103,2025-07-15,Fox,1,Ranger A,Low,East,2025-07
+103,2025-05-16,Owl,1,Ranger B,Moderate,East,2025-05
+103,2025-07-02,Hawk,2,Ranger B,Low,East,2025-07
+104,2025-05-17,Deer,2,Field Tech 2,Low,West,2025-05
+103,2025-05-09,Raccoon,3,Ranger A,Moderate,East,2025-05
+104,2025-07-09,Eagle,1,Ranger B,Low,West,2025-07
+104,2025-05-16,Eagle,4,Ranger B,Low,West,2025-05
+101,2025-06-15,Fox,6,Field Tech 1,Moderate,North,2025-06
+102,2025-05-23,Fox,4,Field Tech 1,Low,South,2025-05
+104,2025-08-03,Owl,6,Ranger B,Low,West,2025-08
+104,2025-07-02,Hawk,1,Ranger A,Low,West,2025-07
+101,2025-05-08,Eagle,1,Ranger B,Low,North,2025-05
+102,2025-07-15,Bear,1,Field Tech 2,Low,South,2025-07
+101,2025-06-11,Deer,2,Field Tech 1,Low,North,2025-06
+101,2025-05-12,Deer,6,Field Tech 2,Low,North,2025-05
+104,2025-05-14,Fox,2,Field Tech 2,Moderate,West,2025-05
+101,2025-07-25,Hawk,2,Ranger B,Moderate,North,2025-07
+102,2025-06-12,Raccoon,5,Ranger A,Low,South,2025-06
+103,2025-06-05,Hawk,4,Field Tech 2,Low,East,2025-06
+102,2025-07-30,Bear,4,Ranger A,Low,South,2025-07
+103,2025-05-14,Hawk,3,Ranger A,Low,East,2025-05
+104,2025-07-05,Fox,2,Field Tech 2,Low,West,2025-07
+103,2025-06-07,Bear,6,Ranger A,Low,East,2025-06
+103,2025-05-14,Eagle,5,Ranger B,Low,East,2025-05
+101,2025-07-19,Bear,5,Field Tech 1,Low,North,2025-07
+102,2025-05-11,Eagle,4,Field Tech 1,Low,South,2025-05
+102,2025-08-01,Raccoon,2,Field Tech 2,Low,South,2025-08
+102,2025-05-23,Fox,3,Field Tech 2,Low,South,2025-05
+101,2025-06-12,Deer,2,Ranger A,Moderate,North,2025-06
+102,2025-05-11,Eagle,1,Field Tech 1,Low,South,2025-05
+104,2025-07-14,Raccoon,2,Field Tech 1,Moderate,West,2025-07
+101,2025-07-27,Deer,1,Field Tech 1,Low,North,2025-07
+103,2025-05-12,Owl,1,Field Tech 1,Low,East,2025-05
+103,2025-05-21,Owl,3,Field Tech 1,Moderate,East,2025-05
+104,2025-06-26,Bear,6,Field Tech 2,Low,West,2025-06
+104,2025-06-18,Deer,4,Field Tech 2,Low,West,2025-06
+104,2025-06-22,Owl,2,Field Tech 1,Low,West,2025-06
+101,2025-06-29,Fox,1,Field Tech 2,Low,North,2025-06
+102,2025-07-14,Eagle,2,Field Tech 1,Low,South,2025-07
+101,2025-05-16,Eagle,6,Field Tech 1,Low,North,2025-05
+103,2025-07-02,Hawk,4,Field Tech 2,Moderate,East,2025-07
+102,2025-08-02,Raccoon,6,Field Tech 1,Moderate,South,2025-08
+104,2025-05-11,Bear,4,Field Tech 1,Low,West,2025-05
+104,2025-06-10,Bear,5,Ranger A,Low,West,2025-06
+101,2025-07-30,Bear,4,Field Tech 2,Moderate,North,2025-07
+103,2025-07-10,Owl,3,Ranger B,Low,East,2025-07
+101,2025-05-24,Owl,6,Field Tech 2,Low,North,2025-05
+101,2025-05-22,Fox,1,Ranger B,Low,North,2025-05
+103,2025-06-21,Raccoon,5,Ranger A,Low,East,2025-06
+102,2025-07-31,Raccoon,3,Field Tech 1,Low,South,2025-07
+103,2025-07-01,Owl,2,Ranger A,Moderate,East,2025-07
+102,2025-07-12,Eagle,6,Field Tech 2,Moderate,South,2025-07
+103,2025-07-28,Eagle,1,Ranger B,Moderate,East,2025-07
+101,2025-05-09,Bear,4,Ranger B,Low,North,2025-05
+104,2025-07-11,Raccoon,1,Ranger A,Low,West,2025-07
+103,2025-06-08,Bear,2,Field Tech 2,Low,East,2025-06
+102,2025-07-23,Eagle,5,Field Tech 2,Moderate,South,2025-07
+102,2025-05-21,Deer,5,Ranger A,Low,South,2025-05
+104,2025-05-28,Bear,6,Field Tech 2,Moderate,West,2025-05
+101,2025-08-01,Owl,5,Field Tech 1,Low,North,2025-08
+103,2025-05-14,Hawk,6,Field Tech 1,Low,East,2025-05
+103,2025-05-26,Bear,6,Ranger B,Low,East,2025-05
+103,2025-07-10,Deer,6,Ranger A,Low,East,2025-07
+102,2025-05-23,Deer,4,Field Tech 2,Low,South,2025-05
+101,2025-06-21,Hawk,3,Field Tech 1,Low,North,2025-06
+104,2025-07-15,Deer,6,Ranger A,Low,West,2025-07
+101,2025-06-14,Raccoon,6,Field Tech 2,Moderate,North,2025-06
+104,2025-06-27,Owl,3,Ranger A,Low,West,2025-06
+102,2025-06-15,Bear,1,Ranger A,Low,South,2025-06
+104,2025-07-04,Bear,6,Field Tech 1,Low,West,2025-07
+102,2025-07-15,Bear,4,Ranger B,Low,South,2025-07
+102,2025-06-30,Hawk,5,Ranger A,Low,South,2025-06
+101,2025-07-11,Deer,5,Field Tech 1,Moderate,North,2025-07
+102,2025-05-26,Eagle,2,Ranger B,Low,South,2025-05
+103,2025-07-11,Eagle,2,Ranger A,Moderate,East,2025-07
+103,2025-05-31,Bear,5,Field Tech 1,Low,East,2025-05
+102,2025-07-25,Eagle,5,Ranger A,Low,South,2025-07
+102,2025-07-20,Hawk,4,Ranger B,Low,South,2025-07
+102,2025-07-29,Hawk,3,Field Tech 1,Low,South,2025-07
+101,2025-05-09,Fox,2,Ranger A,Low,North,2025-05
+103,2025-07-28,Deer,3,Field Tech 2,Moderate,East,2025-07
+101,2025-07-08,Bear,4,Field Tech 1,Low,North,2025-07
+103,2025-07-06,Deer,5,Field Tech 2,Low,East,2025-07
+103,2025-07-03,Fox,6,Ranger A,Low,East,2025-07
+102,2025-07-01,Raccoon,3,Field Tech 2,Low,South,2025-07
+104,2025-06-01,Eagle,5,Ranger B,Low,West,2025-06
+103,2025-06-15,Bear,5,Field Tech 1,Moderate,East,2025-06
+104,2025-05-22,Owl,1,Field Tech 1,Low,West,2025-05
+101,2025-06-15,Deer,3,Field Tech 2,Low,North,2025-06
+101,2025-06-09,Raccoon,6,Ranger B,Low,North,2025-06
+102,2025-05-18,Fox,3,Field Tech 1,Moderate,South,2025-05
+104,2025-07-23,Raccoon,5,Ranger B,Moderate,West,2025-07
+102,2025-06-16,Hawk,6,Field Tech 1,Moderate,South,2025-06
+102,2025-05-26,Raccoon,4,Field Tech 2,Low,South,2025-05
+104,2025-06-14,Raccoon,1,Ranger A,Low,West,2025-06
+101,2025-06-25,Hawk,5,Field Tech 2,Moderate,North,2025-06
+102,2025-06-02,Hawk,2,Field Tech 1,Low,South,2025-06
+101,2025-05-12,Eagle,2,Field Tech 2,Moderate,North,2025-05
+104,2025-06-11,Hawk,1,Ranger A,Low,West,2025-06
+101,2025-06-30,Deer,4,Field Tech 1,Low,North,2025-06
+103,2025-06-26,Eagle,5,Ranger A,Low,East,2025-06
+104,2025-05-12,Hawk,3,Ranger B,Low,West,2025-05
+103,2025-07-15,Eagle,1,Ranger A,Moderate,East,2025-07
+104,2025-07-09,Raccoon,4,Field Tech 1,Low,West,2025-07
+101,2025-05-22,Fox,3,Field Tech 2,Low,North,2025-05
+103,2025-06-18,Hawk,2,Field Tech 1,Low,East,2025-06
+102,2025-05-31,Hawk,2,Field Tech 2,Low,South,2025-05
+101,2025-05-11,Fox,3,Ranger B,Low,North,2025-05
+103,2025-07-05,Hawk,1,Field Tech 2,Low,East,2025-07
+102,2025-07-22,Hawk,2,Ranger B,Moderate,South,2025-07
+103,2025-07-23,Eagle,5,Ranger B,Low,East,2025-07
+104,2025-07-23,Bear,6,Field Tech 1,Low,West,2025-07
+103,2025-07-09,Owl,3,Field Tech 2,Low,East,2025-07
+103,2025-07-05,Owl,3,Ranger A,Moderate,East,2025-07
+103,2025-06-17,Bear,2,Ranger A,Low,East,2025-06
+104,2025-07-19,Eagle,1,Ranger A,Low,West,2025-07
+104,2025-06-08,Bear,5,Ranger B,Low,West,2025-06
+101,2025-07-19,Raccoon,1,Ranger B,Low,North,2025-07
+104,2025-05-24,Owl,4,Ranger B,Low,West,2025-05
+101,2025-07-18,Bear,4,Ranger A,Moderate,North,2025-07
+102,2025-05-08,Raccoon,6,Field Tech 1,Low,South,2025-05
+104,2025-05-25,Raccoon,2,Ranger B,Moderate,West,2025-05
+104,2025-07-09,Owl,2,Field Tech 2,Low,West,2025-07
+101,2025-05-23,Hawk,2,Ranger B,Low,North,2025-05
+103,2025-07-29,Raccoon,6,Field Tech 2,Low,East,2025-07
+103,2025-05-28,Raccoon,4,Field Tech 1,Low,East,2025-05
+103,2025-07-31,Owl,1,Field Tech 1,Low,East,2025-07
+104,2025-05-30,Deer,6,Field Tech 1,Low,West,2025-05
+103,2025-06-03,Eagle,6,Field Tech 1,Low,East,2025-06
+102,2025-08-02,Bear,1,Field Tech 2,Low,South,2025-08
+103,2025-07-06,Eagle,2,Field Tech 1,Moderate,East,2025-07
+103,2025-05-21,Hawk,5,Field Tech 2,Low,East,2025-05
+104,2025-06-19,Owl,1,Ranger B,Low,West,2025-06
+103,2025-05-11,Eagle,4,Ranger A,Moderate,East,2025-05
+103,2025-07-01,Bear,3,Field Tech 1,Low,East,2025-07
+104,2025-06-02,Deer,3,Field Tech 1,Low,West,2025-06
+103,2025-05-23,Fox,6,Ranger B,Low,East,2025-05
+102,2025-05-12,Bear,3,Ranger B,Low,South,2025-05
+102,2025-05-12,Fox,5,Field Tech 2,Low,South,2025-05
+103,2025-07-05,Fox,2,Ranger B,Low,East,2025-07
+101,2025-07-15,Deer,4,Field Tech 2,Moderate,North,2025-07
+104,2025-07-06,Bear,5,Ranger B,Low,West,2025-07
+103,2025-06-16,Eagle,4,Ranger A,Low,East,2025-06
+101,2025-07-28,Hawk,4,Ranger B,Low,North,2025-07
+101,2025-05-28,Raccoon,2,Ranger B,Low,North,2025-05
+101,2025-06-25,Owl,6,Field Tech 2,Low,North,2025-06
+102,2025-06-12,Fox,3,Ranger A,Low,South,2025-06
+103,2025-07-17,Hawk,2,Ranger A,Low,East,2025-07
+103,2025-06-11,Raccoon,5,Field Tech 2,Moderate,East,2025-06
+102,2025-07-09,Raccoon,6,Field Tech 1,Low,South,2025-07
+102,2025-05-20,Eagle,5,Ranger B,Moderate,South,2025-05
+104,2025-07-27,Eagle,6,Ranger B,Moderate,West,2025-07
+101,2025-06-18,Owl,5,Field Tech 1,Low,North,2025-06
+102,2025-05-28,Hawk,2,Field Tech 2,Low,South,2025-05
+104,2025-07-10,Eagle,6,Ranger A,Low,West,2025-07
+104,2025-07-30,Fox,6,Ranger B,Low,West,2025-07
+102,2025-07-06,Eagle,4,Ranger B,Low,South,2025-07
+101,2025-06-08,Raccoon,4,Ranger B,Low,North,2025-06
+104,2025-06-09,Eagle,1,Field Tech 1,Low,West,2025-06
+101,2025-06-08,Bear,5,Field Tech 1,Low,North,2025-06
+102,2025-05-13,Bear,4,Ranger A,Low,South,2025-05
+104,2025-06-14,Deer,1,Field Tech 2,Low,West,2025-06
+103,2025-08-02,Fox,4,Field Tech 1,Low,East,2025-08
+103,2025-07-23,Deer,5,Ranger B,Low,East,2025-07
+102,2025-07-06,Deer,6,Field Tech 2,Low,South,2025-07
+103,2025-06-28,Bear,3,Field Tech 2,Low,East,2025-06
+102,2025-06-06,Bear,5,Ranger A,Low,South,2025-06
+104,2025-07-12,Bear,2,Field Tech 1,Low,West,2025-07
+101,2025-07-17,Fox,4,Ranger A,Low,North,2025-07
+102,2025-07-18,Hawk,4,Ranger B,Low,South,2025-07
+102,2025-06-16,Owl,6,Field Tech 2,Moderate,South,2025-06
+101,2025-08-01,Deer,2,Field Tech 2,Low,North,2025-08
+101,2025-07-10,Raccoon,6,Ranger A,Moderate,North,2025-07
+104,2025-05-22,Hawk,2,Field Tech 2,Low,West,2025-05
+104,2025-07-17,Fox,3,Field Tech 2,Low,West,2025-07
+103,2025-05-08,Raccoon,4,Field Tech 1,Moderate,East,2025-05
+101,2025-06-02,Hawk,4,Ranger A,Moderate,North,2025-06
+101,2025-06-29,Eagle,3,Ranger A,Low,North,2025-06
+101,2025-05-14,Raccoon,1,Ranger A,Moderate,North,2025-05
+103,2025-06-27,Deer,6,Ranger B,Low,East,2025-06
+104,2025-06-22,Raccoon,3,Field Tech 2,Low,West,2025-06
+104,2025-06-23,Fox,6,Ranger B,Low,West,2025-06
+103,2025-05-21,Deer,5,Field Tech 2,Low,East,2025-05
+102,2025-06-03,Owl,4,Ranger A,Low,South,2025-06
+101,2025-06-13,Raccoon,6,Field Tech 2,Low,North,2025-06
+104,2025-06-04,Deer,2,Field Tech 2,Low,West,2025-06
+103,2025-05-25,Eagle,6,Ranger B,Low,East,2025-05
+101,2025-05-10,Owl,5,Field Tech 2,Low,North,2025-05
+101,2025-06-05,Deer,4,Ranger A,Low,North,2025-06
+101,2025-07-21,Fox,3,Field Tech 2,Low,North,2025-07
+101,2025-06-06,Bear,5,Ranger A,Low,North,2025-06
+104,2025-07-01,Deer,4,Ranger B,Low,West,2025-07
+101,2025-05-23,Hawk,6,Field Tech 1,Moderate,North,2025-05
+102,2025-07-18,Eagle,1,Field Tech 1,Low,South,2025-07
+102,2025-06-13,Deer,1,Ranger B,Low,South,2025-06
+104,2025-06-13,Eagle,2,Ranger A,Low,West,2025-06
+102,2025-07-25,Bear,4,Field Tech 2,Low,South,2025-07

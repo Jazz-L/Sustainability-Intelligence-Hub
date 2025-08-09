@@ -1,0 +1,9 @@
+Region,UsageDate,kWh,SourceFile
+North,2025-06-01,125000.0,Energy_Jun2025.csv
+North,2025-07-01,131500.0,Energy_Jul2025.csv
+North,2025-08-01,129900.0,Energy_Aug2025.csv
+South,2025-06-01,112300.0,Energy_Jun2025.csv
+South,2025-07-01,118000.0,Energy_Jul2025.csv
+South,2025-08-01,120250.0,Energy_Aug2025.csv
+East,2025-07-01,95000.0,Energy_Jul2025.csv
+West,2025-08-01,101250.0,Energy_Aug2025.csv

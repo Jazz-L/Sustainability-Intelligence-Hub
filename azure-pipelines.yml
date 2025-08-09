@@ -1,0 +1,26 @@
+trigger:
+  branches:
+    include: [ main ]
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  SqlServerName: '$(sql_server_name)'
+  SqlDatabaseName: '$(sql_database_name)'
+  SqlUser: '$(sql_user)'
+  SqlPassword: '$(sql_password)'
+
+steps:
+- task: PowerShell@2
+  displayName: 'Deploy SQL in order'
+  inputs:
+    targetType: 'inline'
+    script: |
+      $ErrorActionPreference = 'Stop'
+      $order = @("00_schema.sql","10_tables.sql","20_views.sql","30_procs.sql")
+      foreach ($file in $order) {
+        $path = Join-Path "$(Build.SourcesDirectory)\sql" $file
+        Write-Host "Executing $file"
+        sqlcmd -S "$(SqlServerName)" -d "$(SqlDatabaseName)" -U "$(SqlUser)" -P "$(SqlPassword)" -b -i $path -m-1
+      }
